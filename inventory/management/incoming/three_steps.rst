@@ -85,6 +85,32 @@ the page for **WH/IN** should now show **Done**. The product has been moved
 from the **Vendor** to the **WH/Input** location, which makes the product
 available for the next step (Move to the quality control zone)
 
+How to return rejected product to the vendor ?
+----------------------------------------------
+
+Product can be returned from within the previously validated receipt step (moved from
+Vendor to Input).  Note that if you already validated the transfer to the quality control
+zone, it is too late to return it to the Vendor.  Go to the **Inventory** dashboard and
+click **Receipts** at the top of the receipts card.
+
+.. image:: media/three_steps06.png
+   :align: center
+
+Select the previously validated transfer to Input (it is marked Done).  There are now two
+buttons available for **Return** or **Scrap**.  To return product, select the **Return** 
+button.
+
+.. image:: media/three_steps07.png
+   :align: center
+
+A new wizard will appear, prompting for the quantity to return, and whether it will be 
+refunded.  The wizard presents the following instructions, which we will follow for
+re-receiving the returned product.
+
+  This picking appears to be chained with another operation. Later, if you receive the 
+  goods you are returning now, make sure to reverse the returned picking in order to avoid 
+  logistic rules to be applied again (which would create duplicated operations)
+
 How to move your product from the receipt zone to the quality control zone ?
 ----------------------------------------------------------------------------
 
@@ -105,8 +131,8 @@ This has completed the internal transfer step and the status column at
 the top of the page for **WH/INT** should now show **Done**. The receipt is
 now ready to be controlled.
 
-How to to process the quality control ? 
-----------------------------------------
+How to accept product into stock ? 
+----------------------------------
 
 Go back to the **Inventory** dashboard. The waiting transfer is now
 ready. Click on the link **# TRANSFERS** in the **Internal Transfers** card to process
